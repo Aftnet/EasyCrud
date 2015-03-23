@@ -68,6 +68,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="Factories\AzureTablesRepositoryFactoryBase.cs" />
     <Compile Include="Models\ApiTableEntity.cs" />
     <Compile Include="Models\ApiTableEntityKey.cs" />
