@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4C8DB07F-0A9E-45B5-8276-DD3D3DD03884}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCrud", "EasyCrud\EasyCrud.csproj", "{69F43FDE-8377-423B-BFAF-590F6FE6B5F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCrud.Tests", "EasyCrud.Tests\EasyCrud.Tests.csproj", "{A1914C3C-398F-4DA3-AA31-2D9B04A92365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCrud.EF", "EasyCrud.EF\EasyCrud.EF.csproj", "{720BE4C3-59A8-41CE-AA46-F0DB6ABA658B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCrud.Loggly", "EasyCrud.Loggly\EasyCrud.Loggly.csproj", "{050457AA-C84A-4E60-8EBE-AB58791B585F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F11C16F9-EB00-4491-B179-10F02F233CD3}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCrud.WebAPI", "EasyCrud.WebAPI\EasyCrud.WebAPI.csproj", "{9B1937ED-D00A-4B98-B061-C417DB2DA79B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCrud.AzureTables", "EasyCrud.AzureTables\EasyCrud.AzureTables.csproj", "{10C788CB-EF7B-4BC1-89DB-5102A198AA95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69F43FDE-8377-423B-BFAF-590F6FE6B5F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F43FDE-8377-423B-BFAF-590F6FE6B5F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F43FDE-8377-423B-BFAF-590F6FE6B5F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F43FDE-8377-423B-BFAF-590F6FE6B5F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1914C3C-398F-4DA3-AA31-2D9B04A92365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1914C3C-398F-4DA3-AA31-2D9B04A92365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1914C3C-398F-4DA3-AA31-2D9B04A92365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1914C3C-398F-4DA3-AA31-2D9B04A92365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720BE4C3-59A8-41CE-AA46-F0DB6ABA658B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720BE4C3-59A8-41CE-AA46-F0DB6ABA658B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720BE4C3-59A8-41CE-AA46-F0DB6ABA658B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720BE4C3-59A8-41CE-AA46-F0DB6ABA658B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{050457AA-C84A-4E60-8EBE-AB58791B585F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{050457AA-C84A-4E60-8EBE-AB58791B585F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{050457AA-C84A-4E60-8EBE-AB58791B585F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{050457AA-C84A-4E60-8EBE-AB58791B585F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1937ED-D00A-4B98-B061-C417DB2DA79B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1937ED-D00A-4B98-B061-C417DB2DA79B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1937ED-D00A-4B98-B061-C417DB2DA79B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1937ED-D00A-4B98-B061-C417DB2DA79B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C788CB-EF7B-4BC1-89DB-5102A198AA95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C788CB-EF7B-4BC1-89DB-5102A198AA95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C788CB-EF7B-4BC1-89DB-5102A198AA95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C788CB-EF7B-4BC1-89DB-5102A198AA95}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
