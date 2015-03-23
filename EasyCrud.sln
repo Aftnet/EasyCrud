@@ -20,6 +20,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCrud.Loggly", "EasyCrud
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F11C16F9-EB00-4491-B179-10F02F233CD3}"
 	ProjectSection(SolutionItems) = preProject
+		License.txt = License.txt
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
