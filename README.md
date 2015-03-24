@@ -20,9 +20,9 @@ The framework's individual components are available as [NuGet packages](https://
 
 Install either via Visual studio's UI or the command line package manager like so
 
-'''
+```
 PM> Install-Package EasyCrud
-'''
+```
 
 ##How to use
 
