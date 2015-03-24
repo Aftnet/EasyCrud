@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 using log4net.Config;
 
 [assembly: AssemblyTitle("EasyCrud.Loggly")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Loggly based logging support")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyProduct("EasyCrud.Loggly")]
 [assembly: AssemblyCulture("")]

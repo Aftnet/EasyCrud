@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("EasyCrud")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("EasyCrud is a framework for implementing CRUD apis using different data persistence technologies")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyProduct("EasyCrud")]
 [assembly: AssemblyCulture("")]

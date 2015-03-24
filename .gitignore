@@ -3,6 +3,7 @@
 
 # Nuget packages
 packages/
+GeneratedPackages/
 
 # User-specific files
 *.suo

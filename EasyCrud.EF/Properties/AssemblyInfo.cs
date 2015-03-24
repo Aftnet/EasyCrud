@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("EasyCrud.EF")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Entity Framework and MSSQL server data persistency back end")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyProduct("EasyCrud.EF")]
 [assembly: AssemblyCulture("")]

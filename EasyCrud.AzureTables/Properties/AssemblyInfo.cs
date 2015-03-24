@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("EasyCrud.AzureTables")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Azure Tables data persistency back end")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyProduct("EasyCrud.AzureTables")]
 [assembly: AssemblyCulture("")]
