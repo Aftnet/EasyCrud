@@ -14,6 +14,16 @@ By using EasyCrud, impementations instantly gain:
 - (Opt-in) Automatic partial update handling: when calling update methods, if properties of the input method are not specified, the API will not modify the corresponding model properties
 - Unit tests for all the above functionality.
 
+##Installation
+
+The framework's individual components are available as [NuGet packages](https://www.nuget.org/packages?q=EasyCrud).
+
+Install either via Visual studio's UI or the command line package manager like so
+
+'''
+PM> Install-Package EasyCrud
+'''
+
 ##How to use
 
 ###Reference assemblies
