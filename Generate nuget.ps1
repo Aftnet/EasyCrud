@@ -10,11 +10,11 @@ foreach($i in $ProjectPaths)
     $NuspecExists = (Get-ChildItem -Path $i.Directory -Filter "*.nuspec").Count -gt 0;
     if($NuspecExists)
     {
-        &$NugetPath pack "$i" -IncludeReferencedProjects -Prop Configuration=Release -OutputDirectory "$OutputDir";
+        &$NugetPath pack "$i" -IncludeReferencedProjects -Symbol -Prop Configuration=Release -OutputDirectory "$OutputDir";
     }
 }
 
-$PackagesPaths = Get-ChildItem -Path "$OutputDir" -Filter "*.nupkg";
+$PackagesPaths = Get-ChildItem -Path "$OutputDir" -Exclude "*.symbols.nupkg";
 foreach($i in $PackagesPaths)
 {
     &$NugetPath push $i.FullName;
