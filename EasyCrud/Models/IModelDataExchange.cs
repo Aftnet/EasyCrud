@@ -6,6 +6,8 @@
         bool IsValidForEditing();
         void InitializeFromModel(TRecordType input);
         void UpdateModel(TRecordType input);
+        TIndexType GetKey();
+        void SetKey(TIndexType value);
         bool ContentsEqual(IModelDataExchange<TRecordType, TIndexType> input);
     }
 }

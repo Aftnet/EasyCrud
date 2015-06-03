@@ -7,6 +7,21 @@
         public abstract void InitializeFromModel(TRecordType input);
         public abstract void UpdateModel(TRecordType input);
 
+        public virtual TIndexType GetKey()
+        {
+            TRecordType record = new TRecordType();
+            UpdateModel(record);
+            var output = record.GetKey();
+            return output;
+        }
+        public virtual void SetKey(TIndexType value)
+        {
+            TRecordType record = new TRecordType();
+            UpdateModel(record);
+            record.SetKey(value);
+            InitializeFromModel(record);
+        }
+
         public virtual bool ContentsEqual(IModelDataExchange<TRecordType, TIndexType> input)
         {
             var inputRecord = new TRecordType();
