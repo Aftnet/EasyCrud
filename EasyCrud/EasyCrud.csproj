@@ -54,6 +54,7 @@
     <Compile Include="Models\IModelDataExchange.cs" />
     <Compile Include="Models\IModelSearchQuery.cs" />
     <Compile Include="Models\ISearchQuery.cs" />
+    <Compile Include="Models\ModelBase.cs" />
     <Compile Include="Models\ModelDataExchangeBase.cs" />
     <Compile Include="Models\ModelDataExchangeSameNameMembers.cs" />
     <Compile Include="Models\CreationResponse.cs" />
