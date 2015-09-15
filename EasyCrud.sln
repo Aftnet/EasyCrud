@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4C8DB07F-0A9E-45B5-8276-DD3D3DD03884}"
 	ProjectSection(SolutionItems) = preProject
@@ -30,6 +30,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCrud.AzureTables", "EasyCrud.AzureTables\EasyCrud.AzureTables.csproj", "{10C788CB-EF7B-4BC1-89DB-5102A198AA95}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCrud.WebAPI.Tests", "EasyCrud.WebAPI.Tests\EasyCrud.WebAPI.Tests.csproj", "{8F7CA2D0-5493-47DF-A6D3-645CFA513E49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCrud.MVC", "EasyCrud.MVC\EasyCrud.MVC.csproj", "{F5B179D3-5FEB-4A0D-BE3D-59DEBDB1D049}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +67,10 @@ Global
 		{8F7CA2D0-5493-47DF-A6D3-645CFA513E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F7CA2D0-5493-47DF-A6D3-645CFA513E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F7CA2D0-5493-47DF-A6D3-645CFA513E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B179D3-5FEB-4A0D-BE3D-59DEBDB1D049}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B179D3-5FEB-4A0D-BE3D-59DEBDB1D049}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B179D3-5FEB-4A0D-BE3D-59DEBDB1D049}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B179D3-5FEB-4A0D-BE3D-59DEBDB1D049}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
