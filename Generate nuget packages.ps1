@@ -1,7 +1,7 @@
-$NugetPath = ".\.nuget\NuGet.exe";
+$NugetPath =  Get-ChildItem -Recurse -Path ".\packages" -Filter "NuGet.exe";
+$NugetPath = $NugetPath.FullName;
 
 $OutputDir = ".\GeneratedPackages";
-Remove-Item  "$OutputDir" -Recurse -Force;
 New-Item "$OutputDir" -type directory -Force;
 
 $ProjectPaths = Get-ChildItem -Recurse -Path "*.csproj";
@@ -19,3 +19,5 @@ foreach($i in $PackagesPaths)
 {
     &$NugetPath push $i.FullName;
 }
+
+Remove-Item  "$OutputDir" -Recurse -Force

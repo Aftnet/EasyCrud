@@ -3,13 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{4C8DB07F-0A9E-45B5-8276-DD3D3DD03884}"
-	ProjectSection(SolutionItems) = preProject
-		.nuget\NuGet.Config = .nuget\NuGet.Config
-		.nuget\NuGet.exe = .nuget\NuGet.exe
-		.nuget\NuGet.targets = .nuget\NuGet.targets
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCrud", "EasyCrud\EasyCrud.csproj", "{69F43FDE-8377-423B-BFAF-590F6FE6B5F0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCrud.Tests", "EasyCrud.Tests\EasyCrud.Tests.csproj", "{A1914C3C-398F-4DA3-AA31-2D9B04A92365}"
@@ -20,6 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyCrud.Loggly", "EasyCrud
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F11C16F9-EB00-4491-B179-10F02F233CD3}"
 	ProjectSection(SolutionItems) = preProject
+		Generate nuget packages.ps1 = Generate nuget packages.ps1
 		License.txt = License.txt
 		Readme.md = Readme.md
 		SharedAssemblyInfo.cs = SharedAssemblyInfo.cs
